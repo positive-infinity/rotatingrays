@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ATTENTION: the theme prefix (e.g. custom_1) must exactly match the value string in string-array "theme_values" and be followed by an underscore! -->
+
+
+    <!-- theme custom_1 defaults -->
+    <string name="custom_1_rotation_speed_default">0.5</string>
+    <string name="custom_1_rotation_direction_default">@string/clockwise_value</string>
+    <string name="custom_1_rotation_center_horizontal_default">0.5</string>
+    <string name="custom_1_rotation_center_vertical_default">0.5</string>
+
+    <bool name="custom_1_ray1_status_default">false</bool>
+    <bool name="custom_1_ray2_status_default">false</bool>
+    <bool name="custom_1_ray3_status_default">false</bool>
+    <bool name="custom_1_ray4_status_default">false</bool>
+    <bool name="custom_1_ray5_status_default">false</bool>
+    <bool name="custom_1_ray6_status_default">false</bool>
+    <bool name="custom_1_ray7_status_default">false</bool>
+
+    <string name="custom_1_ray1_width_default">0.5</string>
+    <string name="custom_1_ray2_width_default">0.5</string>
+    <string name="custom_1_ray3_width_default">0.5</string>
+    <string name="custom_1_ray4_width_default">0.5</string>
+    <string name="custom_1_ray5_width_default">0.5</string>
+    <string name="custom_1_ray6_width_default">0.5</string>
+    <string name="custom_1_ray7_width_default">0.5</string>
+
+    <integer name="custom_1_ray1_color_default">0xff000000</integer>
+    <integer name="custom_1_ray2_color_default">0xff000000</integer>
+    <integer name="custom_1_ray3_color_default">0xff000000</integer>
+    <integer name="custom_1_ray4_color_default">0xff000000</integer>
+    <integer name="custom_1_ray5_color_default">0xff000000</integer>
+    <integer name="custom_1_ray6_color_default">0xff000000</integer>
+    <integer name="custom_1_ray7_color_default">0xff000000</integer>
+
+    <!-- theme custom_2 defaults -->
+    <string name="custom_2_rotation_speed_default">0.5</string>
+    <string name="custom_2_rotation_direction_default">@string/clockwise_value</string>
+    <string name="custom_2_rotation_center_horizontal_default">0.5</string>
+    <string name="custom_2_rotation_center_vertical_default">0.5</string>
+
+    <bool name="custom_2_ray1_status_default">false</bool>
+    <bool name="custom_2_ray2_status_default">false</bool>
+    <bool name="custom_2_ray3_status_default">false</bool>
+    <bool name="custom_2_ray4_status_default">false</bool>
+    <bool name="custom_2_ray5_status_default">false</bool>
+    <bool name="custom_2_ray6_status_default">false</bool>
+    <bool name="custom_2_ray7_status_default">false</bool>
+
+    <string name="custom_2_ray1_width_default">0.5</string>
+    <string name="custom_2_ray2_width_default">0.5</string>
+    <string name="custom_2_ray3_width_default">0.5</string>
+    <string name="custom_2_ray4_width_default">0.5</string>
+    <string name="custom_2_ray5_width_default">0.5</string>
+    <string name="custom_2_ray6_width_default">0.5</string>
+    <string name="custom_2_ray7_width_default">0.5</string>
+
+    <integer name="custom_2_ray1_color_default">0xff000000</integer>
+    <integer name="custom_2_ray2_color_default">0xff000000</integer>
+    <integer name="custom_2_ray3_color_default">0xff000000</integer>
+    <integer name="custom_2_ray4_color_default">0xff000000</integer>
+    <integer name="custom_2_ray5_color_default">0xff000000</integer>
+    <integer name="custom_2_ray6_color_default">0xff000000</integer>
+    <integer name="custom_2_ray7_color_default">0xff000000</integer>
+
+    <!-- theme custom_3 defaults -->
+    <string name="custom_3_rotation_speed_default">0.5</string>
+    <string name="custom_3_rotation_direction_default">@string/clockwise_value</string>
+    <string name="custom_3_rotation_center_horizontal_default">0.5</string>
+    <string name="custom_3_rotation_center_vertical_default">0.5</string>
+
+    <bool name="custom_3_ray1_status_default">false</bool>
+    <bool name="custom_3_ray2_status_default">false</bool>
+    <bool name="custom_3_ray3_status_default">false</bool>
+    <bool name="custom_3_ray4_status_default">false</bool>
+    <bool name="custom_3_ray5_status_default">false</bool>
+    <bool name="custom_3_ray6_status_default">false</bool>
+    <bool name="custom_3_ray7_status_default">false</bool>
+
+    <string name="custom_3_ray1_width_default">0.5</string>
+    <string name="custom_3_ray2_width_default">0.5</string>
+    <string name="custom_3_ray3_width_default">0.5</string>
+    <string name="custom_3_ray4_width_default">0.5</string>
+    <string name="custom_3_ray5_width_default">0.5</string>
+    <string name="custom_3_ray6_width_default">0.5</string>
+    <string name="custom_3_ray7_width_default">0.5</string>
+
+    <integer name="custom_3_ray1_color_default">0xff000000</integer>
+    <integer name="custom_3_ray2_color_default">0xff000000</integer>
+    <integer name="custom_3_ray3_color_default">0xff000000</integer>
+    <integer name="custom_3_ray4_color_default">0xff000000</integer>
+    <integer name="custom_3_ray5_color_default">0xff000000</integer>
+    <integer name="custom_3_ray6_color_default">0xff000000</integer>
+    <integer name="custom_3_ray7_color_default">0xff000000</integer>
+
+    <!-- theme great defaults -->
+    <string name="great_rotation_speed_default">0.3</string>
+    <string name="great_rotation_direction_default">@string/clockwise_value</string>
+    <string name="great_rotation_center_horizontal_default">0.35</string>
+    <string name="great_rotation_center_vertical_default">0.35</string>
+
+    <bool name="great_ray1_status_default">true</bool>
+    <bool name="great_ray2_status_default">true</bool>
+    <bool name="great_ray3_status_default">true</bool>
+    <bool name="great_ray4_status_default">true</bool>
+    <bool name="great_ray5_status_default">false</bool>
+    <bool name="great_ray6_status_default">false</bool>
+    <bool name="great_ray7_status_default">false</bool>
+
+    <string name="great_ray1_width_default">0.2</string>
+    <string name="great_ray2_width_default">0.4</string>
+    <string name="great_ray3_width_default">0.5</string>
+    <string name="great_ray4_width_default">0.2</string>
+    <string name="great_ray5_width_default">0.5</string>
+    <string name="great_ray6_width_default">0.5</string>
+    <string name="great_ray7_width_default">0.5</string>
+
+    <integer name="great_ray1_color_default">0xff943c42</integer>
+    <integer name="great_ray2_color_default">0xffe7ba73</integer>
+    <integer name="great_ray3_color_default">0xff4a4d7b</integer>
+    <integer name="great_ray4_color_default">0xffecd6b4</integer>
+    <integer name="great_ray5_color_default">0xff000000</integer>
+    <integer name="great_ray6_color_default">0xff000000</integer>
+    <integer name="great_ray7_color_default">0xff000000</integer>
+
+    <!-- theme zebra defaults -->
+    <string name="zebra_rotation_speed_default">0.1</string>
+    <string name="zebra_rotation_direction_default">@string/clockwise_value</string>
+    <string name="zebra_rotation_center_horizontal_default">0.7</string>
+    <string name="zebra_rotation_center_vertical_default">0.7</string>
+
+    <bool name="zebra_ray1_status_default">true</bool>
+    <bool name="zebra_ray2_status_default">true</bool>
+    <bool name="zebra_ray3_status_default">false</bool>
+    <bool name="zebra_ray4_status_default">false</bool>
+    <bool name="zebra_ray5_status_default">false</bool>
+    <bool name="zebra_ray6_status_default">false</bool>
+    <bool name="zebra_ray7_status_default">false</bool>
+
+    <string name="zebra_ray1_width_default">0.2</string>
+    <string name="zebra_ray2_width_default">0.2</string>
+    <string name="zebra_ray3_width_default">0.5</string>
+    <string name="zebra_ray4_width_default">0.5</string>
+    <string name="zebra_ray5_width_default">0.5</string>
+    <string name="zebra_ray6_width_default">0.5</string>
+    <string name="zebra_ray7_width_default">0.5</string>
+
+    <integer name="zebra_ray1_color_default">0xff000000</integer>
+    <integer name="zebra_ray2_color_default">0xffffffff</integer>
+    <integer name="zebra_ray3_color_default">0xff000000</integer>
+    <integer name="zebra_ray4_color_default">0xff000000</integer>
+    <integer name="zebra_ray5_color_default">0xff000000</integer>
+    <integer name="zebra_ray6_color_default">0xff000000</integer>
+    <integer name="zebra_ray7_color_default">0xff000000</integer>
+
+    <!-- theme midsommar defaults -->
+    <string name="midsommar_rotation_speed_default">0.2</string>
+    <string name="midsommar_rotation_direction_default">@string/counter_clockwise_value</string>
+    <string name="midsommar_rotation_center_horizontal_default">0.3</string>
+    <string name="midsommar_rotation_center_vertical_default">0.7</string>
+
+    <bool name="midsommar_ray1_status_default">true</bool>
+    <bool name="midsommar_ray2_status_default">true</bool>
+    <bool name="midsommar_ray3_status_default">false</bool>
+    <bool name="midsommar_ray4_status_default">false</bool>
+    <bool name="midsommar_ray5_status_default">false</bool>
+    <bool name="midsommar_ray6_status_default">false</bool>
+    <bool name="midsommar_ray7_status_default">false</bool>
+
+    <string name="midsommar_ray1_width_default">0.55</string>
+    <string name="midsommar_ray2_width_default">0.3</string>
+    <string name="midsommar_ray3_width_default">0.5</string>
+    <string name="midsommar_ray4_width_default">0.5</string>
+    <string name="midsommar_ray5_width_default">0.5</string>
+    <string name="midsommar_ray6_width_default">0.5</string>
+    <string name="midsommar_ray7_width_default">0.5</string>
+
+    <integer name="midsommar_ray1_color_default">0xff005293</integer>
+    <integer name="midsommar_ray2_color_default">0xfffecb00</integer>
+    <integer name="midsommar_ray3_color_default">0xff000000</integer>
+    <integer name="midsommar_ray4_color_default">0xff000000</integer>
+    <integer name="midsommar_ray5_color_default">0xff000000</integer>
+    <integer name="midsommar_ray6_color_default">0xff000000</integer>
+    <integer name="midsommar_ray7_color_default">0xff000000</integer>
+
+    <!-- theme colorful defaults -->
+    <string name="colorful_rotation_speed_default">0.3</string>
+    <string name="colorful_rotation_direction_default">@string/clockwise_value</string>
+    <string name="colorful_rotation_center_horizontal_default">0.4</string>
+    <string name="colorful_rotation_center_vertical_default">0.4</string>
+
+    <bool name="colorful_ray1_status_default">true</bool>
+    <bool name="colorful_ray2_status_default">true</bool>
+    <bool name="colorful_ray3_status_default">true</bool>
+    <bool name="colorful_ray4_status_default">true</bool>
+    <bool name="colorful_ray5_status_default">true</bool>
+    <bool name="colorful_ray6_status_default">false</bool>
+    <bool name="colorful_ray7_status_default">false</bool>
+
+    <string name="colorful_ray1_width_default">0.3</string>
+    <string name="colorful_ray2_width_default">0.3</string>
+    <string name="colorful_ray3_width_default">0.5</string>
+    <string name="colorful_ray4_width_default">0.5</string>
+    <string name="colorful_ray5_width_default">0.4</string>
+    <string name="colorful_ray6_width_default">0.5</string>
+    <string name="colorful_ray7_width_default">0.5</string>
+
+    <integer name="colorful_ray1_color_default">0xff00a026</integer>
+    <integer name="colorful_ray2_color_default">0xfffed90f</integer>
+    <integer name="colorful_ray3_color_default">0xffe40203</integer>
+    <integer name="colorful_ray4_color_default">0xff2d64e5</integer>
+    <integer name="colorful_ray5_color_default">0xff73359a</integer>
+    <integer name="colorful_ray6_color_default">0xff000000</integer>
+    <integer name="colorful_ray7_color_default">0xff000000</integer>
+
+    <!-- theme yellow defaults -->
+    <string name="bumblebee_rotation_speed_default">0.2</string>
+    <string name="bumblebee_rotation_direction_default">@string/clockwise_value</string>
+    <string name="bumblebee_rotation_center_horizontal_default">0.2</string>
+    <string name="bumblebee_rotation_center_vertical_default">0.2</string>
+
+    <bool name="bumblebee_ray1_status_default">true</bool>
+    <bool name="bumblebee_ray2_status_default">true</bool>
+    <bool name="bumblebee_ray3_status_default">true</bool>
+    <bool name="bumblebee_ray4_status_default">false</bool>
+    <bool name="bumblebee_ray5_status_default">false</bool>
+    <bool name="bumblebee_ray6_status_default">false</bool>
+    <bool name="bumblebee_ray7_status_default">false</bool>
+
+    <string name="bumblebee_ray1_width_default">0.2</string>
+    <string name="bumblebee_ray2_width_default">0.2</string>
+    <string name="bumblebee_ray3_width_default">0.1</string>
+    <string name="bumblebee_ray4_width_default">0.5</string>
+    <string name="bumblebee_ray5_width_default">0.5</string>
+    <string name="bumblebee_ray6_width_default">0.5</string>
+    <string name="bumblebee_ray7_width_default">0.5</string>
+
+    <integer name="bumblebee_ray1_color_default">0xffffc500</integer>
+    <integer name="bumblebee_ray2_color_default">0xff000000</integer>
+    <integer name="bumblebee_ray3_color_default">0xffffd955</integer>
+    <integer name="bumblebee_ray4_color_default">0xff000000</integer>
+    <integer name="bumblebee_ray5_color_default">0xff000000</integer>
+    <integer name="bumblebee_ray6_color_default">0xff000000</integer>
+    <integer name="bumblebee_ray7_color_default">0xff000000</integer>
+
+    <!-- theme pink defaults -->
+    <string name="pink_rotation_speed_default">0.8</string>
+    <string name="pink_rotation_direction_default">@string/counter_clockwise_value</string>
+    <string name="pink_rotation_center_horizontal_default">0.8</string>
+    <string name="pink_rotation_center_vertical_default">0.8</string>
+
+    <bool name="pink_ray1_status_default">true</bool>
+    <bool name="pink_ray2_status_default">true</bool>
+    <bool name="pink_ray3_status_default">true</bool>
+    <bool name="pink_ray4_status_default">true</bool>
+    <bool name="pink_ray5_status_default">true</bool>
+    <bool name="pink_ray6_status_default">true</bool>
+    <bool name="pink_ray7_status_default">true</bool>
+
+    <string name="pink_ray1_width_default">0.2</string>
+    <string name="pink_ray2_width_default">0.1</string>
+    <string name="pink_ray3_width_default">0.2</string>
+    <string name="pink_ray4_width_default">0.1</string>
+    <string name="pink_ray5_width_default">0.4</string>
+    <string name="pink_ray6_width_default">0.2</string>
+    <string name="pink_ray7_width_default">0.2</string>
+
+    <integer name="pink_ray1_color_default">0xfffe70bd</integer>
+    <integer name="pink_ray2_color_default">0xff400023</integer>
+    <integer name="pink_ray3_color_default">0xfff60b8a</integer>
+    <integer name="pink_ray4_color_default">0xff930050</integer>
+    <integer name="pink_ray5_color_default">0xfffe49ab</integer>
+    <integer name="pink_ray6_color_default">0xffac005d</integer>
+    <integer name="pink_ray7_color_default">0xfffe37a2</integer>
+
+    <!-- theme gray defaults -->
+    <string name="gray_rotation_speed_default">0.6</string>
+    <string name="gray_rotation_direction_default">@string/clockwise_value</string>
+    <string name="gray_rotation_center_horizontal_default">0.5</string>
+    <string name="gray_rotation_center_vertical_default">0.5</string>
+
+    <bool name="gray_ray1_status_default">true</bool>
+    <bool name="gray_ray2_status_default">true</bool>
+    <bool name="gray_ray3_status_default">true</bool>
+    <bool name="gray_ray4_status_default">true</bool>
+    <bool name="gray_ray5_status_default">false</bool>
+    <bool name="gray_ray6_status_default">false</bool>
+    <bool name="gray_ray7_status_default">false</bool>
+
+    <string name="gray_ray1_width_default">0.2</string>
+    <string name="gray_ray2_width_default">0.3</string>
+    <string name="gray_ray3_width_default">0.2</string>
+    <string name="gray_ray4_width_default">0.1</string>
+    <string name="gray_ray5_width_default">0.5</string>
+    <string name="gray_ray6_width_default">0.5</string>
+    <string name="gray_ray7_width_default">0.5</string>
+
+    <integer name="gray_ray1_color_default">0xffcccccc</integer>
+    <integer name="gray_ray2_color_default">0xffb2b2b2</integer>
+    <integer name="gray_ray3_color_default">0xff999999</integer>
+    <integer name="gray_ray4_color_default">0xff666666</integer>
+    <integer name="gray_ray5_color_default">0xff000000</integer>
+    <integer name="gray_ray6_color_default">0xff000000</integer>
+    <integer name="gray_ray7_color_default">0xff000000</integer>
+
+    <!-- theme green tea defaults -->
+    <string name="green_tea_rotation_speed_default">0.6</string>
+    <string name="green_tea_rotation_direction_default">@string/clockwise_value</string>
+    <string name="green_tea_rotation_center_horizontal_default">0.5</string>
+    <string name="green_tea_rotation_center_vertical_default">0.5</string>
+
+    <bool name="green_tea_ray1_status_default">true</bool>
+    <bool name="green_tea_ray2_status_default">true</bool>
+    <bool name="green_tea_ray3_status_default">true</bool>
+    <bool name="green_tea_ray4_status_default">false</bool>
+    <bool name="green_tea_ray5_status_default">false</bool>
+    <bool name="green_tea_ray6_status_default">false</bool>
+    <bool name="green_tea_ray7_status_default">false</bool>
+
+    <string name="green_tea_ray1_width_default">0.2</string>
+    <string name="green_tea_ray2_width_default">0.3</string>
+    <string name="green_tea_ray3_width_default">0.4</string>
+    <string name="green_tea_ray4_width_default">0.5</string>
+    <string name="green_tea_ray5_width_default">0.5</string>
+    <string name="green_tea_ray6_width_default">0.5</string>
+    <string name="green_tea_ray7_width_default">0.5</string>
+
+    <integer name="green_tea_ray1_color_default">0xff3f4b02</integer>
+    <integer name="green_tea_ray2_color_default">0xffa6be95</integer>
+    <integer name="green_tea_ray3_color_default">0xff104138</integer>
+    <integer name="green_tea_ray4_color_default">0xff666666</integer>
+    <integer name="green_tea_ray5_color_default">0xff000000</integer>
+    <integer name="green_tea_ray6_color_default">0xff000000</integer>
+    <integer name="green_tea_ray7_color_default">0xff000000</integer>
+
+    <!-- theme guinness defaults -->
+    <string name="guinness_rotation_speed_default">0.2</string>
+    <string name="guinness_rotation_direction_default">@string/counter_clockwise_value</string>
+    <string name="guinness_rotation_center_horizontal_default">0.5</string>
+    <string name="guinness_rotation_center_vertical_default">1.0</string>
+
+    <bool name="guinness_ray1_status_default">true</bool>
+    <bool name="guinness_ray2_status_default">true</bool>
+    <bool name="guinness_ray3_status_default">true</bool>
+    <bool name="guinness_ray4_status_default">false</bool>
+    <bool name="guinness_ray5_status_default">false</bool>
+    <bool name="guinness_ray6_status_default">false</bool>
+    <bool name="guinness_ray7_status_default">false</bool>
+
+    <string name="guinness_ray1_width_default">0.2</string>
+    <string name="guinness_ray2_width_default">0.2</string>
+    <string name="guinness_ray3_width_default">0.2</string>
+    <string name="guinness_ray4_width_default">0.5</string>
+    <string name="guinness_ray5_width_default">0.5</string>
+    <string name="guinness_ray6_width_default">0.5</string>
+    <string name="guinness_ray7_width_default">0.5</string>
+
+    <integer name="guinness_ray1_color_default">0xff009b48</integer>
+    <integer name="guinness_ray2_color_default">0xfffdfdfd</integer>
+    <integer name="guinness_ray3_color_default">0xfffd7800</integer>
+    <integer name="guinness_ray4_color_default">0xff000000</integer>
+    <integer name="guinness_ray5_color_default">0xff000000</integer>
+    <integer name="guinness_ray6_color_default">0xff000000</integer>
+    <integer name="guinness_ray7_color_default">0xff000000</integer>
+
+    <!-- theme windmill defaults -->
+    <string name="windmill_rotation_speed_default">0.4</string>
+    <string name="windmill_rotation_direction_default">@string/clockwise_value</string>
+    <string name="windmill_rotation_center_horizontal_default">0.0</string>
+    <string name="windmill_rotation_center_vertical_default">0.0</string>
+
+    <bool name="windmill_ray1_status_default">true</bool>
+    <bool name="windmill_ray2_status_default">true</bool>
+    <bool name="windmill_ray3_status_default">true</bool>
+    <bool name="windmill_ray4_status_default">true</bool>
+    <bool name="windmill_ray5_status_default">false</bool>
+    <bool name="windmill_ray6_status_default">false</bool>
+    <bool name="windmill_ray7_status_default">false</bool>
+
+    <string name="windmill_ray1_width_default">0.6</string>
+    <string name="windmill_ray2_width_default">0.0</string>
+    <string name="windmill_ray3_width_default">0.35</string>
+    <string name="windmill_ray4_width_default">0.0</string>
+    <string name="windmill_ray5_width_default">0.5</string>
+    <string name="windmill_ray6_width_default">0.5</string>
+    <string name="windmill_ray7_width_default">0.5</string>
+
+    <integer name="windmill_ray1_color_default">0xff000000</integer>
+    <integer name="windmill_ray2_color_default">0xff7a0000</integer>
+    <integer name="windmill_ray3_color_default">0xfffd7800</integer>
+    <integer name="windmill_ray4_color_default">0xff7a0000</integer>
+    <integer name="windmill_ray5_color_default">0xff000000</integer>
+    <integer name="windmill_ray6_color_default">0xff000000</integer>
+    <integer name="windmill_ray7_color_default">0xff000000</integer>
+
+    <!-- theme blue_sky defaults -->
+    <string name="blue_sky_rotation_speed_default">0.2</string>
+    <string name="blue_sky_rotation_direction_default">@string/clockwise_value</string>
+    <string name="blue_sky_rotation_center_horizontal_default">0.5</string>
+    <string name="blue_sky_rotation_center_vertical_default">0.1</string>
+
+    <bool name="blue_sky_ray1_status_default">true</bool>
+    <bool name="blue_sky_ray2_status_default">true</bool>
+    <bool name="blue_sky_ray3_status_default">true</bool>
+    <bool name="blue_sky_ray4_status_default">true</bool>
+    <bool name="blue_sky_ray5_status_default">false</bool>
+    <bool name="blue_sky_ray6_status_default">false</bool>
+    <bool name="blue_sky_ray7_status_default">false</bool>
+
+    <string name="blue_sky_ray1_width_default">0.3</string>
+    <string name="blue_sky_ray2_width_default">0.1</string>
+    <string name="blue_sky_ray3_width_default">0.2</string>
+    <string name="blue_sky_ray4_width_default">0.1</string>
+    <string name="blue_sky_ray5_width_default">0.1</string>
+    <string name="blue_sky_ray6_width_default">0.5</string>
+    <string name="blue_sky_ray7_width_default">0.5</string>
+
+    <integer name="blue_sky_ray1_color_default">0xff3466c7</integer>
+    <integer name="blue_sky_ray2_color_default">0xffe9e8f6</integer>
+    <integer name="blue_sky_ray3_color_default">0xff9cb1d9</integer>
+    <integer name="blue_sky_ray4_color_default">0xff7793d4</integer>
+    <integer name="blue_sky_ray5_color_default">0xff000000</integer>
+    <integer name="blue_sky_ray6_color_default">0xff000000</integer>
+    <integer name="blue_sky_ray7_color_default">0xff000000</integer>
+
+    <!-- theme sunrise defaults -->
+    <string name="sunrise_rotation_speed_default">0.2</string>
+    <string name="sunrise_rotation_direction_default">@string/clockwise_value</string>
+    <string name="sunrise_rotation_center_horizontal_default">0.7</string>
+    <string name="sunrise_rotation_center_vertical_default">0.1</string>
+
+    <bool name="sunrise_ray1_status_default">true</bool>
+    <bool name="sunrise_ray2_status_default">true</bool>
+    <bool name="sunrise_ray3_status_default">true</bool>
+    <bool name="sunrise_ray4_status_default">true</bool>
+    <bool name="sunrise_ray5_status_default">true</bool>
+    <bool name="sunrise_ray6_status_default">false</bool>
+    <bool name="sunrise_ray7_status_default">false</bool>
+
+    <string name="sunrise_ray1_width_default">0.2</string>
+    <string name="sunrise_ray2_width_default">0.2</string>
+    <string name="sunrise_ray3_width_default">0.2</string>
+    <string name="sunrise_ray4_width_default">0.2</string>
+    <string name="sunrise_ray5_width_default">0.2</string>
+    <string name="sunrise_ray6_width_default">0.5</string>
+    <string name="sunrise_ray7_width_default">0.5</string>
+
+    <integer name="sunrise_ray1_color_default">0xffffdc00</integer>
+    <integer name="sunrise_ray2_color_default">0xffffc500</integer>
+    <integer name="sunrise_ray3_color_default">0xffffa800</integer>
+    <integer name="sunrise_ray4_color_default">0xffff8200</integer>
+    <integer name="sunrise_ray5_color_default">0xffff6200</integer>
+    <integer name="sunrise_ray6_color_default">0xff000000</integer>
+    <integer name="sunrise_ray7_color_default">0xff000000</integer>
+
+    <!-- theme halloween defaults -->
+    <string name="halloween_rotation_speed_default">0.3</string>
+    <string name="halloween_rotation_direction_default">@string/clockwise_value</string>
+    <string name="halloween_rotation_center_horizontal_default">0.5</string>
+    <string name="halloween_rotation_center_vertical_default">0.5</string>
+
+    <bool name="halloween_ray1_status_default">true</bool>
+    <bool name="halloween_ray2_status_default">true</bool>
+    <bool name="halloween_ray3_status_default">true</bool>
+    <bool name="halloween_ray4_status_default">true</bool>
+    <bool name="halloween_ray5_status_default">false</bool>
+    <bool name="halloween_ray6_status_default">false</bool>
+    <bool name="halloween_ray7_status_default">false</bool>
+
+    <string name="halloween_ray1_width_default">0.5</string>
+    <string name="halloween_ray2_width_default">0.1</string>
+    <string name="halloween_ray3_width_default">0.0</string>
+    <string name="halloween_ray4_width_default">0.1</string>
+    <string name="halloween_ray5_width_default">0.5</string>
+    <string name="halloween_ray6_width_default">0.5</string>
+    <string name="halloween_ray7_width_default">0.5</string>
+
+    <integer name="halloween_ray1_color_default">0xffff6300</integer>
+    <integer name="halloween_ray2_color_default">0xff781111</integer>
+    <integer name="halloween_ray3_color_default">0xffefff00</integer>
+    <integer name="halloween_ray4_color_default">0xff781111</integer>
+    <integer name="halloween_ray5_color_default">0xff000000</integer>
+    <integer name="halloween_ray6_color_default">0xff000000</integer>
+    <integer name="halloween_ray7_color_default">0xff000000</integer>
+
+    <!-- theme germany defaults -->
+    <string name="germany_rotation_speed_default">0.2</string>
+    <string name="germany_rotation_direction_default">@string/clockwise_value</string>
+    <string name="germany_rotation_center_horizontal_default">0.6</string>
+    <string name="germany_rotation_center_vertical_default">0.4</string>
+
+    <bool name="germany_ray1_status_default">true</bool>
+    <bool name="germany_ray2_status_default">true</bool>
+    <bool name="germany_ray3_status_default">true</bool>
+    <bool name="germany_ray4_status_default">true</bool>
+    <bool name="germany_ray5_status_default">false</bool>
+    <bool name="germany_ray6_status_default">false</bool>
+    <bool name="germany_ray7_status_default">false</bool>
+
+    <string name="germany_ray1_width_default">0.5</string>
+    <string name="germany_ray2_width_default">0.0</string>
+    <string name="germany_ray3_width_default">0.0</string>
+    <string name="germany_ray4_width_default">0.0</string>
+    <string name="germany_ray5_width_default">0.5</string>
+    <string name="germany_ray6_width_default">0.5</string>
+    <string name="germany_ray7_width_default">0.5</string>
+
+    <integer name="germany_ray1_color_default">0xff656060</integer>
+    <integer name="germany_ray2_color_default">0xff000000</integer>
+    <integer name="germany_ray3_color_default">0xffdd0000</integer>
+    <integer name="germany_ray4_color_default">0xffffce00</integer>
+    <integer name="germany_ray5_color_default">0xff000000</integer>
+    <integer name="germany_ray6_color_default">0xff000000</integer>
+    <integer name="germany_ray7_color_default">0xff000000</integer>
+
+    <!-- theme spain defaults -->
+    <string name="spain_rotation_speed_default">0.2</string>
+    <string name="spain_rotation_direction_default">@string/counter_clockwise_value</string>
+    <string name="spain_rotation_center_horizontal_default">0.3</string>
+    <string name="spain_rotation_center_vertical_default">0.6</string>
+
+    <bool name="spain_ray1_status_default">true</bool>
+    <bool name="spain_ray2_status_default">true</bool>
+    <bool name="spain_ray3_status_default">true</bool>
+    <bool name="spain_ray4_status_default">true</bool>
+    <bool name="spain_ray5_status_default">false</bool>
+    <bool name="spain_ray6_status_default">false</bool>
+    <bool name="spain_ray7_status_default">false</bool>
+
+    <string name="spain_ray1_width_default">0.5</string>
+    <string name="spain_ray2_width_default">0.0</string>
+    <string name="spain_ray3_width_default">0.1</string>
+    <string name="spain_ray4_width_default">0.0</string>
+    <string name="spain_ray5_width_default">0.5</string>
+    <string name="spain_ray6_width_default">0.5</string>
+    <string name="spain_ray7_width_default">0.5</string>
+
+    <integer name="spain_ray1_color_default">0xff656060</integer>
+    <integer name="spain_ray2_color_default">0xffc60b1e</integer>
+    <integer name="spain_ray3_color_default">0xffffc400</integer>
+    <integer name="spain_ray4_color_default">0xffc60b1e</integer>
+    <integer name="spain_ray5_color_default">0xff000000</integer>
+    <integer name="spain_ray6_color_default">0xff000000</integer>
+    <integer name="spain_ray7_color_default">0xff000000</integer>
+
+    <!-- theme stripes defaults -->
+    <string name="stripes_rotation_speed_default">0.5</string>
+    <string name="stripes_rotation_direction_default">@string/counter_clockwise_value</string>
+    <string name="stripes_rotation_center_horizontal_default">0.6</string>
+    <string name="stripes_rotation_center_vertical_default">0.3</string>
+
+    <bool name="stripes_ray1_status_default">true</bool>
+    <bool name="stripes_ray2_status_default">true</bool>
+    <bool name="stripes_ray3_status_default">true</bool>
+    <bool name="stripes_ray4_status_default">true</bool>
+    <bool name="stripes_ray5_status_default">true</bool>
+    <bool name="stripes_ray6_status_default">true</bool>
+    <bool name="stripes_ray7_status_default">false</bool>
+
+    <string name="stripes_ray1_width_default">0.4</string>
+    <string name="stripes_ray2_width_default">0.0</string>
+    <string name="stripes_ray3_width_default">0.4</string>
+    <string name="stripes_ray4_width_default">0.0</string>
+    <string name="stripes_ray5_width_default">0.4</string>
+    <string name="stripes_ray6_width_default">0.0</string>
+    <string name="stripes_ray7_width_default">0.5</string>
+
+    <integer name="stripes_ray1_color_default">0xff3b3b3b</integer>
+    <integer name="stripes_ray2_color_default">0xff055d0b</integer>
+    <integer name="stripes_ray3_color_default">0xff464646</integer>
+    <integer name="stripes_ray4_color_default">0xff2f672b</integer>
+    <integer name="stripes_ray5_color_default">0xff545252</integer>
+    <integer name="stripes_ray6_color_default">0xff008811</integer>
+    <integer name="stripes_ray7_color_default">0xff000000</integer>
+
+    <!-- theme relax defaults -->
+    <string name="relax_rotation_speed_default">0.2</string>
+    <string name="relax_rotation_direction_default">@string/clockwise_value</string>
+    <string name="relax_rotation_center_horizontal_default">0.7</string>
+    <string name="relax_rotation_center_vertical_default">0.1</string>
+
+    <bool name="relax_ray1_status_default">true</bool>
+    <bool name="relax_ray2_status_default">true</bool>
+    <bool name="relax_ray3_status_default">true</bool>
+    <bool name="relax_ray4_status_default">false</bool>
+    <bool name="relax_ray5_status_default">false</bool>
+    <bool name="relax_ray6_status_default">false</bool>
+    <bool name="relax_ray7_status_default">false</bool>
+
+    <string name="relax_ray1_width_default">0.3</string>
+    <string name="relax_ray2_width_default">0.0</string>
+    <string name="relax_ray3_width_default">0.05</string>
+    <string name="relax_ray4_width_default">0.5</string>
+    <string name="relax_ray5_width_default">0.5</string>
+    <string name="relax_ray6_width_default">0.5</string>
+    <string name="relax_ray7_width_default">0.5</string>
+
+    <integer name="relax_ray1_color_default">0xff3f4651</integer>
+    <integer name="relax_ray2_color_default">0xffa70000</integer>
+    <integer name="relax_ray3_color_default">0xffe49d64</integer>
+    <integer name="relax_ray4_color_default">0xff000000</integer>
+    <integer name="relax_ray5_color_default">0xff000000</integer>
+    <integer name="relax_ray6_color_default">0xff000000</integer>
+    <integer name="relax_ray7_color_default">0xff000000</integer>
+
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general, overriden in app xmls -->
+    <string name="app_name">Rotating Rays</string>
+    <string name="link_to_play_store">https://play.google.com/store/apps/details?id=de.pnpq.rotatingrays</string>
+    <string name="feedback_email">mailto:positive.infinity.development@gmail.com?subject=Rotating Rays Feedback</string>
+
+    <!-- general -->
+    <string name="settings">Settings</string>
+    <string name="description">A feel-good wallpaper with colored rotating rays</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="theme_reset_question">Are you sure?</string>
+    <string name="tap_to_apply">Tap color to apply</string>
+    <string name="hex">Hex value</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="counter_clockwise">Counter-Clockwise</string>
+    <string name="theme_custom_1">Custom 1</string>
+    <string name="theme_custom_2">Custom 2</string>
+    <string name="theme_custom_3">Custom 3</string>
+    <string name="theme_great">Great</string>
+    <string name="theme_zebra">Zebra</string>
+    <string name="theme_midsommar">Midsommar</string>
+    <string name="theme_colorful">Colorful</string>
+    <string name="theme_bumblebee">Bumblebee</string>
+    <string name="theme_pink">Pink Lady</string>
+    <string name="theme_gray">Gray Shadows</string>
+    <string name="theme_green_tea">Green Tea</string>
+    <string name="theme_guinness">Guinness</string>
+    <string name="theme_windmill">Windmill</string>
+    <string name="theme_blue_sky">Blue Sky</string>
+    <string name="theme_sunrise">Sunrise</string>    
+    <string name="theme_halloween">Halloween</string>
+    <string name="theme_germany">Germany</string>
+    <string name="theme_spain">Spain</string>
+    <string name="theme_stripes">Stripes</string>
+    <string name="theme_relax">Relax</string>
+
+    <!-- preference titles -->
+    <string name="themes_title">Themes</string>
+    <string name="visual_settings_title">Visual Settings</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_reset_title">Reset to defaults</string>
+    <string name="rotation_speed_title">Rotation Speed</string>
+    <string name="rotation_direction_title">Rotation Direction</string>
+    <string name="rotation_center_vertical_title">Vertical Rotation Center</string>
+    <string name="rotation_center_horizontal_title">Horizontal Rotation Center</string>
+    <string name="rays_title">Rays</string>
+    <string name="ray1_title">Ray 1</string>
+    <string name="ray2_title">Ray 2</string>
+    <string name="ray3_title">Ray 3</string>
+    <string name="ray4_title">Ray 4</string>
+    <string name="ray5_title">Ray 5</string>
+    <string name="ray6_title">Ray 6</string>
+    <string name="ray7_title">Ray 7</string>
+    <string name="ray_status_title">Enabled</string>
+    <string name="ray_color_title">Color</string>
+    <string name="ray_width_title">Width</string>
+    <string name="about_title">About</string>
+    <string name="rate_title">Rate</string>
+    <string name="feedback_title">Feedback</string>
+
+    <!--
+         ATTENTION: when adding new keys, check 
+                    * if a default needs to be defined in themes.xml
+                    * the key has to be copied in SettingsHelper.transferPreferences() 
+    -->
+    <!-- preference keys -->
+    <string name="themes_key">themes</string>
+    <string name="visual_settings_key">visual_settings</string>
+    <string name="theme_key">theme</string>
+    <string name="theme_reset_key">theme_reset</string>
+    <string name="rotation_speed_key">rotation_speed</string>
+    <string name="rotation_direction_key">rotation_direction</string>
+    <string name="rotation_center_horizontal_key">rotation_center_horizontal</string>
+    <string name="rotation_center_vertical_key">rotation_center_vertical</string>
+    <string name="rays_key">rays</string>
+    <string name="ray1_status_key">ray1_status</string>
+    <string name="ray2_status_key">ray2_status</string>
+    <string name="ray3_status_key">ray3_status</string>
+    <string name="ray4_status_key">ray4_status</string>
+    <string name="ray5_status_key">ray5_status</string>
+    <string name="ray6_status_key">ray6_status</string>
+    <string name="ray7_status_key">ray7_status</string>
+    <string name="ray1_color_key">ray1_color</string>
+    <string name="ray2_color_key">ray2_color</string>
+    <string name="ray3_color_key">ray3_color</string>
+    <string name="ray4_color_key">ray4_color</string>
+    <string name="ray5_color_key">ray5_color</string>
+    <string name="ray6_color_key">ray6_color</string>
+    <string name="ray7_color_key">ray7_color</string>
+    <string name="ray1_width_key">ray1_width</string>
+    <string name="ray2_width_key">ray2_width</string>
+    <string name="ray3_width_key">ray3_width</string>
+    <string name="ray4_width_key">ray4_width</string>
+    <string name="ray5_width_key">ray5_width</string>
+    <string name="ray6_width_key">ray6_width</string>
+    <string name="ray7_width_key">ray7_width</string>
+    <string name="about_key">about</string>
+    <string name="rate_key">rate</string>
+    <string name="feedback_key">feedback</string>
+
+    <!-- preference defaults -->
+    <string name="theme_default">@string/theme_great_value</string>
+    <string name="rotation_speed_default">0.3</string>
+    <string name="rotation_direction_default">@string/clockwise_value</string>
+    <string name="rotation_center_horizontal_default">0.35</string>
+    <string name="rotation_center_vertical_default">0.35</string>
+
+    <bool name="ray1_status_default">true</bool>
+    <bool name="ray2_status_default">true</bool>
+    <bool name="ray3_status_default">true</bool>
+    <bool name="ray4_status_default">true</bool>
+    <bool name="ray5_status_default">false</bool>
+    <bool name="ray6_status_default">false</bool>
+    <bool name="ray7_status_default">false</bool>
+
+    <string name="ray1_width_default">0.2</string>
+    <string name="ray2_width_default">0.4</string>
+    <string name="ray3_width_default">0.5</string>
+    <string name="ray4_width_default">0.2</string>
+    <string name="ray5_width_default">0.5</string>
+    <string name="ray6_width_default">0.5</string>
+    <string name="ray7_width_default">0.5</string>
+
+    <integer name="ray1_color_default">0xff943c42</integer>
+    <integer name="ray2_color_default">0xffe7ba73</integer>
+    <integer name="ray3_color_default">0xff4a4d7b</integer>
+    <integer name="ray4_color_default">0xffecd6b4</integer>
+    <integer name="ray5_color_default">0xff000000</integer>
+    <integer name="ray6_color_default">0xff000000</integer>
+    <integer name="ray7_color_default">0xff000000</integer>
+
+    <!-- preference summaries -->
+    <string name="theme_reset_summary">Reset current theme settings to defaults</string>
+    <string name="feedback_summary">Please write us if you have any suggestions to improve this wallpaper. Your ideas are highly welcome and will be implemented as soon as possible!</string>
+    <string name="rate_summary">Please rate the wallpaper in Google Play if you like it. Thanks!</string>
+    <string name="rays_summary">Configure the colors and widths of rays</string>
+
+    <string-array name="rotation_speed_summaries">
+        <item>Very Slow</item>
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+        <item>Very Fast</item>
+    </string-array>
+    <string-array name="rotation_center_horizontal_summaries">
+        <item>Leftmost</item>
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+        <item>Rightmost</item>
+    </string-array>
+    <string-array name="rotation_center_vertical_summaries">
+        <item>Top</item>
+        <item>Above Center</item>
+        <item>Center</item>
+        <item>Below Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="ray_width_summaries">
+        <item>Very Narrow</item>
+        <item>Narrow</item>
+        <item>Medium</item>
+        <item>Wide</item>
+        <item>Very Wide</item>
+    </string-array>
+
+    <!-- preference entries -->
+    <string-array name="theme_entries">
+        <item>@string/theme_great</item>
+        <item>@string/theme_custom_1</item>
+        <item>@string/theme_custom_2</item>
+        <item>@string/theme_custom_3</item>
+        <item>@string/theme_zebra</item>
+        <item>@string/theme_germany</item>
+        <item>@string/theme_spain</item>
+        <item>@string/theme_midsommar</item>
+        <item>@string/theme_colorful</item>
+        <item>@string/theme_bumblebee</item>
+        <item>@string/theme_pink</item>
+        <item>@string/theme_halloween</item>
+        <item>@string/theme_stripes</item>
+        <item>@string/theme_gray</item>
+        <item>@string/theme_green_tea</item>
+        <item>@string/theme_guinness</item>
+        <item>@string/theme_relax</item>
+        <item>@string/theme_windmill</item>
+        <item>@string/theme_blue_sky</item>
+        <item>@string/theme_sunrise</item>
+    </string-array>
+    <string-array name="rotation_direction_entries">
+        <item>@string/clockwise</item>
+        <item>@string/counter_clockwise</item>
+    </string-array>
+
+    <!-- preference values -->
+    <string-array name="theme_values">
+        <item>@string/theme_great_value</item>
+        <item>@string/theme_custom_1_value</item>
+        <item>@string/theme_custom_2_value</item>
+        <item>@string/theme_custom_3_value</item>
+        <item>@string/theme_zebra_value</item>
+        <item>@string/theme_germany_value</item>
+        <item>@string/theme_spain_value</item>
+        <item>@string/theme_midsommar_value</item>
+        <item>@string/theme_colorful_value</item>
+        <item>@string/theme_bumblebee_value</item>
+        <item>@string/theme_pink_value</item>
+        <item>@string/theme_halloween_value</item>
+        <item>@string/theme_stripes_value</item>
+        <item>@string/theme_gray_value</item>
+        <item>@string/theme_green_tea_value</item>
+        <item>@string/theme_guinness_value</item>
+        <item>@string/theme_relax_value</item>
+        <item>@string/theme_windmill_value</item>
+        <item>@string/theme_blue_sky_value</item>
+        <item>@string/theme_sunrise_value</item>
+    </string-array>
+    <string-array name="rotation_direction_values">
+        <item>@string/clockwise_value</item>
+        <item>@string/counter_clockwise_value</item>
+    </string-array>
+
+    <string name="theme_custom_1_value">custom_1</string>
+    <string name="theme_custom_2_value">custom_2</string>
+    <string name="theme_custom_3_value">custom_3</string>
+    <string name="theme_great_value">great</string>
+    <string name="theme_zebra_value">zebra</string>
+    <string name="theme_midsommar_value">midsommar</string>
+    <string name="theme_colorful_value">colorful</string>
+    <string name="theme_bumblebee_value">bumblebee</string>
+    <string name="theme_pink_value">pink</string>
+    <string name="theme_gray_value">gray</string>
+    <string name="theme_green_tea_value">green_tea</string>
+    <string name="theme_guinness_value">guinness</string>
+    <string name="theme_windmill_value">windmill</string>
+    <string name="theme_blue_sky_value">blue_sky</string>
+    <string name="theme_sunrise_value">sunrise</string>
+    <string name="theme_halloween_value">halloween</string>
+    <string name="theme_germany_value">germany</string>
+    <string name="theme_spain_value">spain</string>
+    <string name="theme_stripes_value">stripes</string>
+    <string name="theme_relax_value">relax</string>
+    <string name="clockwise_value">clockwise</string>
+    <string name="counter_clockwise_value">counter_clockwise</string>   
+
+</resources>

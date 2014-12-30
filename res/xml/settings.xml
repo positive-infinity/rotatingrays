@@ -1,0 +1,209 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/themes_key"
+        android:title="@string/themes_title" >
+        <de.pnpq.rotatingrays.preferences.ListPreferenceWithSummary
+            android:defaultValue="@string/theme_default"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="@string/theme_key"
+            android:title="@string/theme_title" />
+
+        <de.pnpq.rotatingrays.preferences.ResetPreference
+            android:dialogMessage="@string/theme_reset_question"
+            android:key="@string/theme_reset_key"
+            android:negativeButtonText="@string/no"
+            android:persistent="false"
+            android:positiveButtonText="@string/yes"
+            android:summary="@string/theme_reset_summary"
+            android:title="@string/theme_reset_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/visual_settings_key"
+        android:title="@string/visual_settings_title" >
+        <de.pnpq.rotatingrays.preferences.SliderPreference
+            android:defaultValue="@string/rotation_speed_default"
+            android:key="@string/rotation_speed_key"
+            android:summary="@array/rotation_speed_summaries"
+            android:title="@string/rotation_speed_title" />
+
+        <de.pnpq.rotatingrays.preferences.ListPreferenceWithSummary
+            android:defaultValue="@string/rotation_direction_default"
+            android:entries="@array/rotation_direction_entries"
+            android:entryValues="@array/rotation_direction_values"
+            android:key="@string/rotation_direction_key"
+            android:title="@string/rotation_direction_title" />
+
+        <de.pnpq.rotatingrays.preferences.SliderPreference
+            android:defaultValue="@string/rotation_center_horizontal_default"
+            android:key="@string/rotation_center_horizontal_key"
+            android:summary="@array/rotation_center_horizontal_summaries"
+            android:title="@string/rotation_center_horizontal_title" />
+        <de.pnpq.rotatingrays.preferences.SliderPreference
+            android:defaultValue="@string/rotation_center_vertical_default"
+            android:key="@string/rotation_center_vertical_key"
+            android:summary="@array/rotation_center_vertical_summaries"
+            android:title="@string/rotation_center_vertical_title" />
+
+        <PreferenceScreen
+            android:key="@string/rays_key"
+            android:summary="@string/rays_summary"
+            android:title="@string/rays_title" >
+            <PreferenceCategory android:title="@string/ray1_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray1_status_default"
+                    android:key="@string/ray1_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray1_color_default"
+                    android:dependency="@string/ray1_status_key"
+                    android:key="@string/ray1_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray1_width_default"
+                    android:dependency="@string/ray1_status_key"
+                    android:key="@string/ray1_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray2_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray2_status_default"
+                    android:key="@string/ray2_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray2_color_default"
+                    android:dependency="@string/ray2_status_key"
+                    android:key="@string/ray2_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray2_width_default"
+                    android:dependency="@string/ray2_status_key"
+                    android:key="@string/ray2_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray3_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray3_status_default"
+                    android:key="@string/ray3_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray3_color_default"
+                    android:dependency="@string/ray3_status_key"
+                    android:key="@string/ray3_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray3_width_default"
+                    android:dependency="@string/ray3_status_key"
+                    android:key="@string/ray3_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray4_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray4_status_default"
+                    android:key="@string/ray4_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray4_color_default"
+                    android:dependency="@string/ray4_status_key"
+                    android:key="@string/ray4_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray4_width_default"
+                    android:dependency="@string/ray4_status_key"
+                    android:key="@string/ray4_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray5_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray5_status_default"
+                    android:key="@string/ray5_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray5_color_default"
+                    android:dependency="@string/ray5_status_key"
+                    android:key="@string/ray5_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray5_width_default"
+                    android:dependency="@string/ray5_status_key"
+                    android:key="@string/ray5_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray6_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray6_status_default"
+                    android:key="@string/ray6_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray6_color_default"
+                    android:dependency="@string/ray6_status_key"
+                    android:key="@string/ray6_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray6_width_default"
+                    android:dependency="@string/ray6_status_key"
+                    android:key="@string/ray6_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/ray7_title" >
+                <CheckBoxPreference
+                    android:defaultValue="@bool/ray7_status_default"
+                    android:key="@string/ray7_status_key"
+                    android:title="@string/ray_status_title" />
+
+                <de.pnpq.rotatingrays.preferences.ColorPickerPreference
+                    android:defaultValue="@integer/ray7_color_default"
+                    android:dependency="@string/ray7_status_key"
+                    android:key="@string/ray7_color_key"
+                    android:title="@string/ray_color_title" />
+
+                <de.pnpq.rotatingrays.preferences.SliderPreference
+                    android:defaultValue="@string/ray7_width_default"
+                    android:dependency="@string/ray7_status_key"
+                    android:key="@string/ray7_width_key"
+                    android:summary="@array/ray_width_summaries"
+                    android:title="@string/ray_width_title" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/about_key"
+        android:title="@string/about_title" >
+        <Preference
+            android:key="@string/rate_key"
+            android:summary="@string/rate_summary"
+            android:title="@string/rate_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/link_to_play_store" />
+        </Preference>        
+        <Preference
+            android:key="@string/feedback_key"
+            android:summary="@string/feedback_summary"
+            android:title="@string/feedback_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/feedback_email" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
